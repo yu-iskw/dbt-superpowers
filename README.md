@@ -6,14 +6,12 @@ Accelerate your dbt lifecycle with specialized Claude Code plugins. This reposit
 
 <!-- START_PLUGIN_TABLE -->
 
-| Category           | Plugin                                                       | Description                                                      | Status   |
-| :----------------- | :----------------------------------------------------------- | :--------------------------------------------------------------- | :------- |
-| **Semantic Layer** | [lightdash-development](./plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.      | ✅ GA    |
-| **Analysis**       | [lightdash-analysis](./plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores.   | ✅ GA    |
-| **Content Ops**    | [lightdash-content-admin](./plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.         | ✅ GA    |
-| **Admin**          | [lightdash-org-admin](./plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).     | ✅ GA    |
-| **Quality**        | `elementary-admin`                                           | _Coming Soon_: Elementary data quality and monitor integration.  | 🏗️ Alpha |
-| **Lifecycle**      | `dbt-cloud-ops`                                              | _Coming Soon_: dbt Cloud job management and environment control. | 🏗️ Alpha |
+| Category           | Plugin                                                       | Description                                                    | Status |
+| :----------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :----- |
+| **Semantic Layer** | [lightdash-development](./plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.    | ✅ GA  |
+| **Analysis**       | [lightdash-analysis](./plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores. | ✅ GA  |
+| **Content Ops**    | [lightdash-content-admin](./plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.       | ✅ GA  |
+| **Admin**          | [lightdash-org-admin](./plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).   | ✅ GA  |
 
 <!-- END_PLUGIN_TABLE -->
 
@@ -31,20 +29,15 @@ Ensure you have [Claude Code](https://code.claude.com) installed and authenticat
 
 ### 2. Configuration
 
-Configure your environment with the relevant API keys. We recommend a `.env` file in your project root:
+Refer to the [Product Documentation](#product-documentation) for detailed configuration instructions for each plugin.
 
-```bash
-# Lightdash (Optional)
-LIGHTDASH_API_KEY=your_key
-LIGHTDASH_API_URL=https://app.lightdash.cloud/api/v1
+## Product Documentation
 
-# dbt Cloud (Optional)
-DBT_CLOUD_API_TOKEN=your_token
-DBT_CLOUD_ACCOUNT_ID=your_id
+<!-- START_DOCS_LIST -->
 
-# Security Mode
-LIGHTDASH_TOOL_SAFETY_MODE=write-safe
-```
+- [Lightdash Plugins Documentation](./docs/plugins/lightdash_plugins.md)
+
+<!-- END_DOCS_LIST -->
 
 ### 3. Installation
 

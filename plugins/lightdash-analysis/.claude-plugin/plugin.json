@@ -6,9 +6,6 @@
     "name": "yu-iskw"
   },
   "license": "Apache-2.0",
-  "metadata": {
-    "category": "Analysis",
-    "status": "GA"
-  },
+  "keywords": ["category:Analysis", "status:GA"],
   "mcpServers": "./.mcp.json"
 }
