@@ -34,18 +34,20 @@ To enable discovery and easy updates, add the repository as a marketplace within
 
 Once the marketplace is added, you can install individual plugins using the syntax `{plugin-name}@dbt-heros`. Alternatively, you can install them directly using their full GitHub path.
 
-| Plugin                      | Marketplace Command                                       | Direct Install Command                                                    |
-| :-------------------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------ |
+| Plugin                      | Marketplace Command                                 | Direct Install Command                                              |
+| :-------------------------- | :-------------------------------------------------- | :------------------------------------------------------------------ |
 | **lightdash-development**   | `/plugin install lightdash-development@dbt-heros`   | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-development`   |
 | **lightdash-analysis**      | `/plugin install lightdash-analysis@dbt-heros`      | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-analysis`      |
 | **lightdash-content-admin** | `/plugin install lightdash-content-admin@dbt-heros` | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-content-admin` |
 | **lightdash-org-admin**     | `/plugin install lightdash-org-admin@dbt-heros`     | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-org-admin`     |
+| **lightdash-agentops**      | `/plugin install lightdash-agentops@dbt-heros`      | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-agentops`      |
 
 ## Available Lightdash Plugins
 
-| Category           | Plugin                                                           | Description                                                    | Status |
-| :----------------- | :--------------------------------------------------------------- | :------------------------------------------------------------- | :----- |
-| **Semantic Layer** | [lightdash-development](../../plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.    | ✅ GA  |
-| **Analysis**       | [lightdash-analysis](../../plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores. | ✅ GA  |
-| **Content Ops**    | [lightdash-content-admin](../../plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.       | ✅ GA  |
-| **Admin**          | [lightdash-org-admin](../../plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).   | ✅ GA  |
+| Category           | Plugin                                                           | Description                                                    | Status  |
+| :----------------- | :--------------------------------------------------------------- | :------------------------------------------------------------- | :------ |
+| **Semantic Layer** | [lightdash-development](../../plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.    | ✅ GA   |
+| **Analysis**       | [lightdash-analysis](../../plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores. | ✅ GA   |
+| **Content Ops**    | [lightdash-content-admin](../../plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.       | ✅ GA   |
+| **Admin**          | [lightdash-org-admin](../../plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).   | ✅ GA   |
+| **AgentOps**       | [lightdash-agentops](../../plugins/lightdash-agentops)           | Build, manage, and autonomously tune Lightdash AI agents.      | 🧪 Beta |

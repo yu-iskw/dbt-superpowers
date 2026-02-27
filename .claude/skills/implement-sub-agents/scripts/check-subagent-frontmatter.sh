@@ -28,17 +28,17 @@ if [[ ! -f ${agent_file} ]]; then
 	exit 1
 fi
 
-if ! rg -q '^---$' "${agent_file}"; then
+if ! grep -q '^---$' "${agent_file}"; then
 	echo "ERROR: Missing frontmatter delimiters in ${agent_file}" >&2
 	exit 1
 fi
 
-if ! rg -q '^name:\s*.+$' "${agent_file}"; then
+if ! grep -q '^name: ' "${agent_file}"; then
 	echo "ERROR: Missing frontmatter field: name" >&2
 	exit 1
 fi
 
-if ! rg -q '^description:\s*.+$' "${agent_file}"; then
+if ! grep -q '^description: ' "${agent_file}"; then
 	echo "ERROR: Missing frontmatter field: description" >&2
 	exit 1
 fi

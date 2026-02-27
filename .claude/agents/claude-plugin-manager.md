@@ -1,6 +1,14 @@
 ---
 name: claude-plugin-manager
 description: Orchestrate the full Claude Code plugin development lifecycle from design through verification and packaging.
+skills:
+  - implement-claude-extensions
+  - implement-agent-skills
+  - implement-sub-agents
+  - implement-hooks
+  - implement-agent-teams
+  - implement-plugin
+  - plugin-verification
 ---
 
 # Claude Plugin Manager

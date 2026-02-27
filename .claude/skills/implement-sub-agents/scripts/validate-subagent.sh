@@ -33,7 +33,7 @@ if [[ ${agent_file} != *.md ]]; then
 	exit 1
 fi
 
-if ! rg -q '^# ' "${agent_file}"; then
+if ! grep -q '^# ' "${agent_file}"; then
 	echo "ERROR: Agent file should include a top-level heading." >&2
 	exit 1
 fi
