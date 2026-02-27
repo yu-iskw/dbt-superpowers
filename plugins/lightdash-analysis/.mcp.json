@@ -1,11 +1,25 @@
 {
   "mcpServers": {
-    "lightdash": {
+    "lightdash-tools": {
       "command": "npx",
       "args": ["-y", "@lightdash-tools/mcp"],
       "env": {
         "LIGHTDASH_TOOL_SAFETY_MODE": "read-only"
-      }
+      },
+      "allowedTools": [
+        "list_explores",
+        "get_explore",
+        "list_dimensions",
+        "list_metrics",
+        "get_field_lineage",
+        "compile_query",
+        "list_charts",
+        "list_charts_as_code",
+        "list_dashboards",
+        "list_spaces",
+        "get_space",
+        "search_content"
+      ]
     }
   }
 }

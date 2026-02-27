@@ -80,6 +80,7 @@ Example: "Add a code-review skill" → implement-agent-skills → lint-fix → p
 User request → implement-claude-extensions (component selection)
   → implement-hooks/skills/sub-agents/teams (as needed)
   → implement-plugin (packaging)
+  → mend-plugin-mcp-config (standardize tool exposure)
   → lint-fix → plugin-verification
 Example: "Create a database migration plugin"
   → Task list for tracking
@@ -96,6 +97,7 @@ User request → Identify target component(s) → Update specific component(s)
   → lint-fix → plugin-verification
 Example: "Add validation to existing migration skill"
   → implement-agent-skills (update SKILL.md)
+  → mend-plugin-mcp-config (sync tool definitions)
   → lint-fix → plugin-verification
 ```
 
@@ -119,7 +121,8 @@ This agent orchestrates the following plugin management skills:
 5. **implement-agent-teams** - Set up and validate agent team configurations and collaboration flows.
 6. **implement-plugin** - Package plugins with manifest wiring, structure validation, and distribution guidance.
 7. **plugin-verification** - Run layered verification (component, manifest, structure, runtime, CI parity).
-8. **lint-fix** - Auto-fix code quality violations using Trunk's linting framework.
+8. **mend-plugin-mcp-config** - Automatically update plugin `.mcp.json` configurations based on skill usage and enforce selective tool exposure.
+9. **lint-fix** - Auto-fix code quality violations using Trunk's linting framework.
 
 ## Related Documentation
 
@@ -177,4 +180,11 @@ Agent: Creates task list → implement-agent-skills (migration runner skill)
 ```text
 After any implementation: Agent automatically runs lint-fix
 Before completion report: Agent automatically runs plugin-verification
+```
+
+**Standardizing tool exposure:**
+
+```text
+User: "The tool list in my plugin is messy, can you clean it up?"
+Agent: Directly invokes mend-plugin-mcp-config → lint-fix → plugin-verification
 ```

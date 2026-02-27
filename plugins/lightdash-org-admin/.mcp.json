@@ -1,11 +1,30 @@
 {
   "mcpServers": {
-    "lightdash": {
+    "lightdash-tools": {
       "command": "npx",
       "args": ["-y", "@lightdash-tools/mcp"],
       "env": {
         "LIGHTDASH_TOOL_SAFETY_MODE": "read-only"
-      }
+      },
+      "allowedTools": [
+        "list_projects",
+        "get_project",
+        "list_schedulers",
+        "list_tags",
+        "create_group",
+        "update_group",
+        "delete_group",
+        "add_user_to_group",
+        "remove_user_from_group",
+        "delete_member",
+        "list_organization_members",
+        "get_member",
+        "list_groups",
+        "get_group",
+        "list_group_members",
+        "list_spaces",
+        "get_space"
+      ]
     }
   }
 }

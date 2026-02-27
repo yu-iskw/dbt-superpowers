@@ -34,8 +34,8 @@ To enable discovery and easy updates, add the repository as a marketplace within
 
 Once the marketplace is added, you can install individual plugins using the syntax `{plugin-name}@dbt-heros`. Alternatively, you can install them directly using their full GitHub path.
 
-| Plugin                      | Marketplace Command                                       | Direct Install Command                                                    |
-| :-------------------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------ |
+| Plugin                      | Marketplace Command                                 | Direct Install Command                                              |
+| :-------------------------- | :-------------------------------------------------- | :------------------------------------------------------------------ |
 | **lightdash-development**   | `/plugin install lightdash-development@dbt-heros`   | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-development`   |
 | **lightdash-analysis**      | `/plugin install lightdash-analysis@dbt-heros`      | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-analysis`      |
 | **lightdash-content-admin** | `/plugin install lightdash-content-admin@dbt-heros` | `/plugin install yu-iskw/dbt-heros/plugins/lightdash-content-admin` |

@@ -1,11 +1,12 @@
 {
   "mcpServers": {
-    "lightdash": {
+    "lightdash-tools": {
       "command": "npx",
       "args": ["-y", "@lightdash-tools/mcp"],
       "env": {
         "LIGHTDASH_TOOL_SAFETY_MODE": "read-only"
-      }
+      },
+      "allowedTools": ["list_metrics", "list_dimensions", "get_explore"]
     }
   }
 }
