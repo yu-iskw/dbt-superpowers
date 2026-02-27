@@ -8,7 +8,7 @@ Enables inspection of existing parameters to understand dynamic query customizat
 
 ## Tools
 
-Wraps MCP tools for inspecting existing parameters (via `lightdash_tools__get_explore`).
+Wraps MCP tools for inspecting existing parameters (via `ldt__get_explore`).
 
 ## Behavior
 

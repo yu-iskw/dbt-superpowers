@@ -10,10 +10,10 @@ Provides tools and context for high-level administrative oversight of the organi
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_projects`
-- `lightdash_tools__get_project`
-- `lightdash_tools__list_schedulers`
-- `lightdash_tools__list_tags`
+- `ldt__list_projects`
+- `ldt__get_project`
+- `ldt__list_schedulers`
+- `ldt__list_tags`
 
 ## Safety Mode Compliance
 

@@ -10,8 +10,8 @@ Provides tools for administrative tasks related to inspecting user access and or
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_organization_members`
-- `lightdash_tools__get_member`
+- `ldt__list_organization_members`
+- `ldt__get_member`
 
 ## Safety Mode Compliance
 

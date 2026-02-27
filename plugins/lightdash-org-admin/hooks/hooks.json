@@ -13,7 +13,7 @@
     ],
     "PreToolUse": [
       {
-        "matcher": "lightdash_tools__delete_member",
+        "matcher": "ldt__delete_member",
         "hooks": [
           {
             "type": "command",

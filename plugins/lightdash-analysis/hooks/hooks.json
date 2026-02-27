@@ -13,7 +13,7 @@
     ],
     "PreToolUse": [
       {
-        "matcher": "lightdash_tools__delete_member|lightdash_tools__upsert_chart_as_code",
+        "matcher": "ldt__delete_member|ldt__upsert_chart_as_code",
         "hooks": [
           {
             "type": "command",

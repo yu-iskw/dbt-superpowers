@@ -10,8 +10,8 @@ Enables administrative checks on project content to identify broken charts, dash
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__validate_project`
-- `lightdash_tools__get_validation_results`
+- `ldt__validate_project`
+- `ldt__get_validation_results`
 
 ## Safety Mode Compliance
 

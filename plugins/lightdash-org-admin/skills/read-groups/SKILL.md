@@ -10,9 +10,9 @@ Provides tools for administrative tasks related to inspecting organization group
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_groups`
-- `lightdash_tools__get_group`
-- `lightdash_tools__list_group_members`
+- `ldt__list_groups`
+- `ldt__get_group`
+- `ldt__list_group_members`
 
 ## Safety Mode Compliance
 

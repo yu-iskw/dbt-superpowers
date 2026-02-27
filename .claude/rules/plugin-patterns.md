@@ -112,7 +112,7 @@ Add hook in `hooks/hooks.json`:
   "hooks": [
     {
       "type": "PreToolUse",
-      "toolPattern": "lightdash_tools__delete_.*",
+      "toolPattern": "ldt__delete_.*",
       "script": "hooks/scripts/safety-check.sh"
     }
   ]

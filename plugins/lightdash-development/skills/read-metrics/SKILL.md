@@ -10,7 +10,7 @@ Enables identification and inspection of existing metrics for modeling and analy
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_metrics`
+- `ldt__list_metrics`
 
 ## Behavior
 

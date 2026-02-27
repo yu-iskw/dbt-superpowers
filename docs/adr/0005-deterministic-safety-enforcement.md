@@ -27,8 +27,8 @@ We will create a shell script `.claude/hooks/lightdash-safety.sh` that:
 
 Each plugin containing destructive tools will register a `PreToolUse` hook in its `hooks.json`.
 
-- **`lightdash-admin`**: Protects `lightdash_tools__delete_member`.
-- **`lightdash-development`**: Protects `lightdash_tools__upsert_chart_as_code`.
+- **`lightdash-admin`**: Protects `ldt__delete_member`.
+- **`lightdash-development`**: Protects `ldt__upsert_chart_as_code`.
 - **`lightdash-analysis`**: Implements a strict block on any destructive tools if they happen to be invoked.
 
 ### 3. Architecture

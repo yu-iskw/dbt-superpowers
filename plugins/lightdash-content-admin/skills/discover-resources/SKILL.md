@@ -10,9 +10,9 @@ Enables the identification of available entities for further inspection or modif
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_projects`
-- `lightdash_tools__list_explores`
-- `lightdash_tools__list_tags`
+- `ldt__list_projects`
+- `ldt__list_explores`
+- `ldt__list_tags`
 
 ## Behavior
 
