@@ -10,7 +10,7 @@ Enables inspection of entity-level metadata, joins, and explores for modeling pu
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__get_explore`
+- `ldt__get_explore`
 
 ## Behavior
 

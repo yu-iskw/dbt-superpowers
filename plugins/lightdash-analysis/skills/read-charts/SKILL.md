@@ -10,8 +10,8 @@ Enables identification and inspection of charts for data analysis purposes.
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_charts`
-- `lightdash_tools__list_charts_as_code`
+- `ldt__list_charts`
+- `ldt__list_charts_as_code`
 
 ## Safety Mode Compliance
 

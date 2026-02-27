@@ -10,8 +10,8 @@ Enables safe modification and deletion of fields by revealing their data lineage
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__get_field_lineage`
-- `lightdash_tools__list_charts_as_code` (Impact analysis)
+- `ldt__get_field_lineage`
+- `ldt__list_charts_as_code` (Impact analysis)
 
 ## Behavior
 

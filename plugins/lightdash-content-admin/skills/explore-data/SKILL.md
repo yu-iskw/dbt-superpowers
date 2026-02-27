@@ -10,11 +10,11 @@ Enables data exploration and discovery within the semantic layer.
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_explores`
-- `lightdash_tools__get_explore`
-- `lightdash_tools__list_dimensions`
-- `lightdash_tools__list_metrics`
-- `lightdash_tools__get_field_lineage`
+- `ldt__list_explores`
+- `ldt__get_explore`
+- `ldt__list_dimensions`
+- `ldt__list_metrics`
+- `ldt__get_field_lineage`
 
 ## Safety Mode Compliance
 

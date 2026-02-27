@@ -10,7 +10,7 @@ Provides tools for administrative tasks related to modifying user access and org
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__delete_member`
+- `ldt__delete_member`
 
 ## Safety Mode Compliance
 

@@ -10,10 +10,10 @@ Enables content discovery and organization within a Lightdash project.
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_dashboards`
-- `lightdash_tools__list_spaces`
-- `lightdash_tools__get_space`
-- `lightdash_tools__search_content`
+- `ldt__list_dashboards`
+- `ldt__list_spaces`
+- `ldt__get_space`
+- `ldt__search_content`
 
 ## Safety Mode Compliance
 

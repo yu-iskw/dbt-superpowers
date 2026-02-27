@@ -10,7 +10,7 @@ Enables administrative updates to charts to ensure consistency and compliance wi
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__upsert_chart_as_code`
+- `ldt__upsert_chart_as_code`
 
 ## Safety Mode Compliance
 

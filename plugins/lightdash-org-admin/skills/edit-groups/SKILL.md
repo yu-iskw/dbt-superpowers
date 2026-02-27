@@ -10,11 +10,11 @@ Provides tools for administrative tasks related to organization groups, includin
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__create_group`
-- `lightdash_tools__update_group`
-- `lightdash_tools__delete_group`
-- `lightdash_tools__add_user_to_group`
-- `lightdash_tools__remove_user_from_group`
+- `ldt__create_group`
+- `ldt__update_group`
+- `ldt__delete_group`
+- `ldt__add_user_to_group`
+- `ldt__remove_user_from_group`
 
 ## Safety Mode Compliance
 

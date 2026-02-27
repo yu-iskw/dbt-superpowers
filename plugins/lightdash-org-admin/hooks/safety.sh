@@ -12,7 +12,7 @@ INPUT=$(cat)
 TOOL_NAME=$(echo "${INPUT}" | jq -r '.tool_name')
 
 # Define destructive tools
-DESTRUCTIVE_TOOLS=("lightdash_tools__delete_member" "lightdash_tools__upsert_chart_as_code")
+DESTRUCTIVE_TOOLS=("ldt__delete_member" "ldt__upsert_chart_as_code")
 
 # Check if the current tool is in the destructive list
 IS_DESTRUCTIVE=false

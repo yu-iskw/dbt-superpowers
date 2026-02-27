@@ -10,8 +10,8 @@ Provides organization-level tools for managing space access and administrative c
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_spaces`
-- `lightdash_tools__get_space`
+- `ldt__list_spaces`
+- `ldt__get_space`
 
 ## Safety Mode Compliance
 

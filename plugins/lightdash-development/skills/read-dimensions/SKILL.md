@@ -10,7 +10,7 @@ Enables identification and inspection of existing dimensions for modeling and an
 
 Wraps the following MCP tools from the `lightdash` server:
 
-- `lightdash_tools__list_dimensions`
+- `ldt__list_dimensions`
 
 ## Behavior
 
