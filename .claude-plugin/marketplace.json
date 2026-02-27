@@ -50,6 +50,17 @@
       "source": "./plugins/lightdash-org-admin",
       "category": "admin",
       "homepage": "https://github.com/yu-iskw/dbt-heros/tree/main/plugins/lightdash-org-admin"
+    },
+    {
+      "name": "lightdash-agentops",
+      "description": "Lightdash AgentOps plugin for building, managing, and autonomously tuning AI agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "yu-iskw"
+      },
+      "source": "./plugins/lightdash-agentops",
+      "category": "agentops",
+      "homepage": "https://github.com/yu-iskw/dbt-heros/tree/main/plugins/lightdash-agentops"
     }
   ]
 }
