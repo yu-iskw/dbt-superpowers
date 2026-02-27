@@ -6,12 +6,13 @@ Accelerate your dbt lifecycle with specialized Claude Code plugins. This reposit
 
 <!-- START_PLUGIN_TABLE -->
 
-| Category           | Plugin                                                       | Description                                                    | Status |
-| :----------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :----- |
-| **Semantic Layer** | [lightdash-development](./plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.    | ✅ GA  |
-| **Analysis**       | [lightdash-analysis](./plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores. | ✅ GA  |
-| **Content Ops**    | [lightdash-content-admin](./plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.       | ✅ GA  |
-| **Admin**          | [lightdash-org-admin](./plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).   | ✅ GA  |
+| Category           | Plugin                                                       | Description                                                    | Status  |
+| :----------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------ |
+| **Semantic Layer** | [lightdash-development](./plugins/lightdash-development)     | dbt 1.10+ metrics, dimensions, and semantic layer modeling.    | ✅ GA   |
+| **Analysis**       | [lightdash-analysis](./plugins/lightdash-analysis)           | Data discovery and insight generation from Lightdash explores. | ✅ GA   |
+| **Content Ops**    | [lightdash-content-admin](./plugins/lightdash-content-admin) | Space organization and content validation for Lightdash.       | ✅ GA   |
+| **Admin**          | [lightdash-org-admin](./plugins/lightdash-org-admin)         | Lightdash organization management (users, groups, projects).   | ✅ GA   |
+| **AgentOps**       | [lightdash-agentops](./plugins/lightdash-agentops)           | Build, manage, and autonomously tune Lightdash AI agents.      | 🧪 Beta |
 
 <!-- END_PLUGIN_TABLE -->
 

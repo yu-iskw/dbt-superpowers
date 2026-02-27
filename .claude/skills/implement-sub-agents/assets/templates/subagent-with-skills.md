@@ -1,6 +1,8 @@
 ---
 name: skill-driven-implementer
 description: Implement changes using designated skills and report verification outcomes.
+skills:
+  - your-skill-name
 ---
 
 # Skill Driven Implementer

@@ -1,0 +1,11 @@
+{
+  "name": "lightdash-agentops",
+  "version": "0.1.0",
+  "description": "Lightdash AgentOps plugin for building, managing, and autonomously tuning AI agents.",
+  "author": {
+    "name": "yu-iskw"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["category:AgentOps", "status:Beta"],
+  "mcpServers": "./.mcp.json"
+}

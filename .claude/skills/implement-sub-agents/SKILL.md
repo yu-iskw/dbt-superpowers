@@ -13,8 +13,8 @@ Create or update agent files under `agents/` with explicit role boundaries, mode
 2. **Define role**: Clear purpose, responsibilities, and explicit boundaries
 3. **Set decision authority**: What agent can/cannot do autonomously
 4. **Configure tools**: Least privilege access to required tools only
-5. **Author/update**: Agent markdown with valid frontmatter
-6. **Context strategy**: Define how agent manages context (retrieval, summarization, state)
+5. **Author/update**: Agent markdown with valid frontmatter (including `skills` injection if needed)
+6. **Context strategy**: Define how agent manages context (retrieval, summarization, state, preloaded skills)
 7. **Plan evaluations**: Identify 20-50 test scenarios covering success and failure modes
 8. **Validate**: Check frontmatter and agent file structure
 9. **Connect selectively**: Link related skills/hooks only when required
